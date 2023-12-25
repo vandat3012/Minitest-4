@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class ManageMaterial implements Discount {
+public class ManageMaterial {
     private ArrayList<Material> list;
 
     public ManageMaterial() {
@@ -60,8 +60,4 @@ public class ManageMaterial implements Discount {
         return total;
     }
 
-    @Override
-    public double getReallyMoney(double discount) {
-        return 0;
-    }
 }
